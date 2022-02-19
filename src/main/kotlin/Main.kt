@@ -1,4 +1,7 @@
 fun main() {
+
+    /*This calls the user class into the main function*/
+
     val user = User(firstName = "", lastName = "", selection= 0)
     println(
         "  / \\   / \\   / \\   / \\   / \\   / \\   / \\   / \\ \n" +
@@ -22,12 +25,13 @@ fun main() {
     print("______________________________________________________________________________________________________________")
     println("")
 
+    /*This calls the methods from the user class*/
     user.askLastName()
     user.askFirstName()
     println("Welcome ${user.firstName}  ${user.lastName}")
     user.selectOption()
 
-
+    /*This creates a list with various  work affirmations*/
     val workAffirmations = arrayOf(
         "I’m doing a really good job today",
         "I’m capable of overcoming any hurdles that come at me",
@@ -41,7 +45,7 @@ fun main() {
         "I further my career every day",
         "I’m one step closer to my dream job with every action I take"
     )
-
+    /*This creates a list with various relationship affirmations*/
     val relationshipAffirmations = arrayOf(
         "My love for my partner grows stronger each passing day",
         "My partner and I accept each other’s strengths and weaknesses",
@@ -53,7 +57,7 @@ fun main() {
         "My partner accepts my flaws and helps me to become a better version of myself",
         "My partner and I feel comfortable sharing our thoughts and problems with each other."
     )
-
+    /*This creates a list with daily advices*/
     val dailyAdvices = arrayOf(
         "Take time to know yourself",
         "A narrow focus brings big results",
@@ -75,7 +79,7 @@ fun main() {
         "Dreams remain dreams until you take action"
     )
 
-
+    /*This function generates the type of affirmation needed depending on the user's input.*/
     fun generateAffirmation(): String {
 
         var sentence = ""
