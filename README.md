@@ -5,7 +5,7 @@ three options : Work Affirmations, Relationships Affirmations or Daily Advices. 
 
 {Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
 
-[Software Demo Video](https://www.youtube.com/watch?v=OiknsmQWH30)
+[Software Demo Video](https://www.youtube.com/watch?v=4Yo7y4POnW0)
 
 # Development Environment
 
